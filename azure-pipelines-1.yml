@@ -1,7 +1,6 @@
 # Maven
 trigger:
 - master
-
 pool:
   vmImage: ubuntu-latest
 
@@ -29,4 +28,4 @@ steps:
     containerRegistry: 'dock2'
     repository: 'andylenz75 / azuredevops1'
     command: 'buildAndPush'
-    Dockerfile: '**/AzureDockerFile'
+    Dockerfile: '**/AzureDockerfile'
